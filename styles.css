@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #201E1F;
+}
+
+nav ul {
+  width: 100%;
+  background-color: #201E1F;
+  display: inline-block;
+  padding: 20px;
+  list-style: none;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  font-family: 'Arial', sans-serif;
+  text-decoration: none;
+  color: #F1FAEE;
+  font-size: 20px;
+  display: block;
+}
+
+nav ul li a:hover {
+  opacity: .5;
+}
+
+.container .name {
+  color: #fff;
+  font-size: 80px;
+  font-family: 'Sansita Swashed', cursive;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 5px;
+  letter-spacing: 1px;
+}
+
+.container .description {
+  text-align: center;
+  margin-top: 7px;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  color: #ff9f1c;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.container .avatar {
+  width: 350px;
+  border-radius: 200px;
+  margin: 0 auto;
+  display: block;
+}
+
+
+.container .title-skills {
+  font-size: 40px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container .skills {
+  text-align: center;
+  letter-spacing: 8px;
+}
+
+.container .skills i {
+  font-size: 60px;
+}
+
+.container .skills .js-icon {
+  font-size: 54px;
+  color: yellow;
+}
+
+.container .skills .mongodb-icon {
+  color: green;
+} 
+
+.container .skills .bootstrap-icon {
+  font-size: 55px;
+}
+
+.container .projects .projects-title {
+  text-align: center;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  margin-top: 50px;
+}
+
+.container .projects .projects-description {
+  text-align: center;
+  color: #ff9f1c;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.container .projects .github-icon {
+  font-size: 60px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  color: #fff;
+}
+
+
+.container .projects a {
+  text-decoration: none;
+}
+
+.container .social .social-title {
+  text-align: center;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+.container .social .icons-networks {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 30px;
+}
+
+.container .social .icons-networks .twitter {
+  color: #00acee;
+}
+
+.container .social .icons-networks span{
+  color: #ff9f1c;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+
+
+ footer .copy {
+  text-align: center;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  margin-top: 40px;
+}
